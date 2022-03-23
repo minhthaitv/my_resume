@@ -254,7 +254,7 @@ body{
 .block__content-title{
     color: #E2E6EE;
     font-size: 18px;
-    animation: colortransfer ease 0.5s;
+    animation: colortransfer ease 1.5s;
     animation-iteration-count: infinite;
 }
 
