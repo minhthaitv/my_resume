@@ -1,0 +1,65 @@
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-sm{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.l-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+
+.l-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.l-4{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.l-8{
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.l-4{
+    flex:0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.skill_content-table-left{
+    display: flex;
+}
+
+.l-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-skill-extent{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
