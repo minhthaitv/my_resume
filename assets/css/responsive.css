@@ -1,2 +1,63 @@
 /*  */
-@media (min-width:1023px)
+@media (max-width:739px){
+    .app.wide{
+        width: 100%;
+        flex: 1;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .detail-mobile-btn{
+        display: none;
+        color: white;
+        position: absolute;
+    }
+
+    .c-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .container{
+        width: auto;
+    }
+
+    .description__quote-icon-right{
+        position: absolute;
+        bottom: 50%;
+        left: calc(100% - 200px);
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    .big-dot{
+        display: none;
+    }
+
+    .container .container__block .block__content::after{
+        display: none;
+    }
+    
+    .container .container__block .block__content::before{
+        display: none;
+    }
+
+    .container .container__block .block__content{
+        padding: 0 20px;
+    }
+
+    .block__content-detail{
+        margin-top: 20px;
+    }
+
+    .project-item{
+        margin-bottom: 30px;
+    }
+
+    .certificate-item{
+        overflow: hidden;
+        
+    }
+
+    
+}

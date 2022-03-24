@@ -84,8 +84,8 @@ body{
 
 .description__quote-icon-right{
     position: absolute;
-    bottom: 50%;
-    left: calc(100% - 70px);
+    bottom: 39%;
+    left: calc(100% - 79px);
     font-size: 13px;
     font-weight: 300;
 }
@@ -412,5 +412,9 @@ body{
     color: #95AAFB;
 }
 
+
+.detail-mobile-btn{
+    display: none;
+}
 
 
