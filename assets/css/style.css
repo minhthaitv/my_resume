@@ -72,6 +72,7 @@ body{
     color: #d9dfe8;
     position: relative;
     display: block;
+    width: max-content;
 }
 
 .description__quote-icon-left{
@@ -85,7 +86,7 @@ body{
 .description__quote-icon-right{
     position: absolute;
     bottom: 39%;
-    left: calc(100% - 79px);
+    right: -13px;
     font-size: 13px;
     font-weight: 300;
 }
