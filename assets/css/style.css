@@ -253,22 +253,20 @@ body{
 
 
 .block__content-title{
-    color: #E2E6EE;
-    font-size: 18px;
+    background: linear-gradient(105.8deg, #b18fe6 0%, #0029ff 111.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
     animation: colortransfer ease 1.5s;
     animation-iteration-count: infinite;
 }
 
 @keyframes colortransfer{
-    from{
-        color: #E2E6EE;
+    0%{
+        background-size: 0px 60px ;
     }
-    to{
-        background: linear-gradient(105.8deg, #b18fe6 0%, #0029ff 111.25%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: transparent;
-        background-size: contain;
+    50%,100%{
+        background-size: 200px 60px 
     }
 }
 
