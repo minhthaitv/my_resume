@@ -1,5 +1,5 @@
 :root{
-    
+    --to-page-width: 100px;
 }
 *{
     box-sizing: border-box;
@@ -420,6 +420,58 @@ body{
 
 .detail-mobile-btn{
     display: none;
+}
+.project-item__link{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    margin: 4px 0;
+    position: relative;
+}
+
+.project__link-logo{
+    margin-right: 8px;
+}
+
+.project__link-logo--white{
+    color: white;
+}
+
+.project-item__link-link{
+    
+    width: max-content;
+    display: block;
+    text-decoration: none;
+    color: #03e9f4;
+    position: relative;
+    background: linear-gradient(105.8deg, #b18fe6 0%, #0029ff 111.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorSlideText 1s ease-in-out infinite;
+}
+
+.project-item__link-link:hover{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+
+
+@keyframes colorSlideText {
+    0%{
+        background-size: 0px 60px ;
+    }
+    50%,100%{
+        background-size: 100px 60px 
+    }
 }
 
 
